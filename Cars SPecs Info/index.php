@@ -3,6 +3,9 @@
 echo "Hello World!";
 
 ?>
+<!DOCTYPEHTML >
+<html>
+    <head>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -10,8 +13,11 @@ echo "Hello World!";
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
 <!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery-latest.js"></script>
+<!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
-
+        </head>
+    <body>
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -33,7 +39,7 @@ echo "Hello World!";
 				<div class="navbar-header">
 					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
 				</div>
-				
+
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
@@ -97,7 +103,7 @@ echo "Hello World!";
 						</li>
 					</ul>
 				</div>
-				
+
 			</nav>
 		</div>
 	</div>
@@ -189,3 +195,4 @@ echo "Hello World!";
 		</div>
 	</div>
 </div>
+   <body> </html>
